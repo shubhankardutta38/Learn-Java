@@ -1,5 +1,5 @@
 class Employee {
-    float salary=40000;
+    float salary=43000;
 }
 class Programmer extends Employee{
     float bonus=10000f;
