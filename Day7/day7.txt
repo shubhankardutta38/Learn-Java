@@ -1,0 +1,134 @@
+i was hoping for some leaks too, but nvm i'll give you leaks that i have here visit:
+https://link-center.net/521019/bangbros-723gb-mega
+*******************************************************************************
+ lab day-8(24/7/23)
+
+*************************************************************************************
+ex:1
+interface printable
+{
+    void print();
+}
+class A6 implements printable {
+    public void print()
+    {
+        System.out.println("Hello");
+    }
+    public static void main(String args[])
+{
+    A6 obj=new A6();
+    obj.print();
+}
+}
+
+*************************************************************************************
+ex:2
+
+interface Drawable{
+    void draw();
+}
+class Rectangle implements Drawable {
+    public void draw()
+    {
+System.out.println("drawing rectangle");
+    }}
+class Circle implements Drawable {
+    public void draw(){
+System.out.println("drawing circle");
+    }
+}
+class TestInterface1 {
+    public static void main(String args[])
+    {
+        Drawable d=new Circle();
+        d.draw();
+    }
+    
+}
+*************************************************************************************
+ex:3
+
+public class JavaExceptionExample{
+    public static void main(String args[]){
+    try{
+        int data=100/0;
+        System.out.println(data);
+    }
+    catch(ArithmeticException e){
+        {
+            System.out.println(e);
+        }
+        System.out.println("rest of the code....");
+    }
+    }
+
+    }
+*************************************************************************************
+ex:4
+
+
+public class JavaExceptionExample{
+    public static void main(String args[]){
+    try{
+        int data=100/10;
+        System.out.println(data);
+        String s="Java";
+        System.out.println(s.length());
+        String a="abc";//200
+        int i=Integer.parseInt(a);
+        System.out.println(i);
+        int a1[]=new int[5];
+        a1[6]=1000;//a[0],a[1],a[2],a[3],a[4]
+    }
+    catch(ArrayIndexOutOfBoundsException e)
+        {
+            System.out.println(e);
+        }
+        catch(NumberFormatException e)
+        {
+            System.out.println(e);
+        }
+    catch(ArithmeticException e)
+        {
+            System.out.println(e);
+        }
+        catch(NullPointerException e) 
+        {
+           System.out.println(e);
+        }  
+        System.out.println("rest of the code....");
+    }
+    }
+
+*************************************************************************************
+ex:5
+public class JavaExceptionExample{
+    public static void main(String args[]){
+    try{
+        int data=100/10;
+        System.out.println(data);
+        String s=null;//---->nullpointerexception ,s="abc"
+        System.out.println(s.length());
+        String a="abc";//----->numberformatexception, a="200"
+        int i=Integer.parseInt(a);
+        System.out.println(i);
+        int a1[]=new int[5];
+        a1[6]=1000;//-------->arrayindexoutofboundsexception ,a1[0],a1[1],a1[2],a1[3],a1[4]
+    }
+   
+        catch(Exception e) 
+        {
+           System.out.println(e);
+        }  
+        System.out.println("rest of the code....");
+    }
+    }
+
+    
+
+
+
+
+
+
+
