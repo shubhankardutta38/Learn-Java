@@ -1,0 +1,1 @@
+create table customer(id int auto_increment not null,name varchar(33) not null,city varchar(10) not null,bill_amount decimal (18,2) not null);
