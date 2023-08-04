@@ -1,3 +1,4 @@
+
 /*
  * Write a Java function, check_double(number) which accepts 
 a whole number and returns True if it satisfies the given
@@ -9,7 +10,6 @@ same number of digits.
 Otherwise it should return False.
  */
 import java.util.Arrays;
-
 public class q3 {
     public static void main(String[] args) {
         int number1 = 125;
